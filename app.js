@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
         navigator.geolocation.getCurrentPosition(position => {
             long = position.coords.longitude;
             lat = position.coords.latitude;
-            alert(`Longitude is: ${long} and Latitude is: ${lat}`);
+            // alert(`Longitude is: ${long} and Latitude is: ${lat}`);
             // lat=33.441792&lon=-94.037689
 
             const api = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&
